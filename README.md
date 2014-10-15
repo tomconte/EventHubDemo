@@ -3,7 +3,7 @@ EventHubDemo
 
 This Azure Event Hub demo shows messages streaming in real time from an Event Hub to a Web page using SignalR, and a Node.JS client to generate traffic. The Node.JS client uses Publisher URIs and Shared Access Signatures to securely send the data to Event Hubs.
 
-- How to configure
+## How to configure
 
 You will first need to go the Azure Management Console to create a Service Bus namespace and an Event Hub.
 
@@ -23,7 +23,7 @@ In the Visual Studio solution, you will also need to configure the same values i
 - `ApplicationUrl` is the URL of the Web application where SignalR will run; if running locally you should use something like "http://127.0.0.1:81/" and if you are deploying to Azure, the URL of your deployment, e.g. "http://test.cloudapp.net/".
 - `AzureStorageConnectionString` is a Storage connection string that will be used by the EventHub library to coordinate the different consumer Worker Roles.
 
-- How to use
+## How to use
 
 Before you can run the Node.JS client, you should type `npm install` from the `EventHubJS` directory to install dependencies.
 
