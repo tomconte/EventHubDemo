@@ -1,0 +1,15 @@
+{
+  "name": "EventHubJS",
+  "version": "1.0.0",
+  "description": "Test client for Azure Event Hubs, using SSL + Shared Access Signatures.",
+  "main": "bench_eventhubs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Conte",
+  "license": "ISC",
+  "dependencies": {
+    "buffalo": "^0.1.3",
+    "moment": "^2.8.3"
+  }
+}
